@@ -1,0 +1,21 @@
+body {
+  background: rgba(0, 0, 0, 0.3);
+}
+.grid {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 24px;
+  row-gap: 24px; */
+  /* column-gap和row-gap可以通过gap统一设置 */
+  gap: 24px;
+  border: 2px solid white;
+  padding: 20px;
+}
+.grid div {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border: 2px solid rgba(34, 101, 247, 0.8);
+}
